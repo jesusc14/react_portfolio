@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://jesusc14.github.io/react_portfolio",
+  "homepage": "https://jesusc14.github.io/react_portfolio/",
   "scripts": {
     "start": "webpack --mode development --watch",
     "build": "webpack --mode production --output-path dist",
