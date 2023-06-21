@@ -34,7 +34,7 @@ export default function HeroSection() {
                     className="text-white"
                     style={{
                         zIndex: 1,
-                        maxWidth: '30%',
+                        maxWidth: '40%',
                         width: '100%',
                         margin: '0 auto',
                     }}

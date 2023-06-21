@@ -5,6 +5,7 @@ import { Button } from "@mui/material";
 import '@coreui/coreui/dist/css/coreui.min.css';
 import Navbar from './components/navbar.js';
 import HeroImage from './components/hero.js';
+import Projects from './components/projects.js'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       </header>
       <main style={{ flex: 1 }}>
         <HeroImage />
+        <Projects />
       </main>
       <footer>
         <Footer />
