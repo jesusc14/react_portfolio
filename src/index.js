@@ -6,6 +6,8 @@ import '@coreui/coreui/dist/css/coreui.min.css';
 import Navbar from './components/navbar.js';
 import HeroImage from './components/hero.js';
 import Projects from './components/projects.js'
+import Fade from 'react-reveal/Fade';
+
 
 const App = () => {
   return (
@@ -15,6 +17,12 @@ const App = () => {
       </header>
       <main style={{ flex: 1 }}>
         <HeroImage />
+        <Fade bottom big>
+          <div>
+            <h1 className="p-5 text-center d-flex justify-content-center align-items-center">Projects I've worked on</h1>
+          </div>
+        </Fade>
+
         <Projects />
       </main>
       <footer>

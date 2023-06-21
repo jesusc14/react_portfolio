@@ -28,12 +28,12 @@ const Navbar = () => {
                     <CCollapse className="navbar-collapse" visible={visible}>
                         <CNavbarNav className="mx-auto"> {/* Add mx-auto class for center alignment */}
                             <CNavItem>
-                                <CNavLink href="#">
+                                <CNavLink href="#" style={{fontSize: '20px'}}>
                                     About me
                                 </CNavLink>
                             </CNavItem>
                             <CNavItem>
-                                <CNavLink href="#">Projects</CNavLink>
+                                <CNavLink href="#" style={{fontSize: '20px'}}>Projects</CNavLink>
                             </CNavItem>
                         </CNavbarNav>
                     </CCollapse>
