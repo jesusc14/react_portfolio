@@ -11,7 +11,7 @@ export default function HeroSection() {
                 style={{
                     width: '100%',
                     margin: '5 auto',
-                    height: '50vh', // Adjust the height to fill the viewport
+                    height: '100vh', // Adjust the height to fill the viewport
                     backgroundImage: `url(${backgroundImage})`, // Use the imported image here
                     backgroundSize: 'cover', // Make the image cover the container
                     backgroundPosition: 'center center', // Center the image horizontally and vertically

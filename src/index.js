@@ -7,23 +7,20 @@ import Navbar from './components/navbar.js';
 import HeroImage from './components/hero.js';
 import Projects from './components/projects.js'
 import Fade from 'react-reveal/Fade';
-
+import ContactForm from './components/contactme.js';
 
 const App = () => {
   return (
     <main className="text-gray-400 bg-gray-900 body-font" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <header>
-        <Navbar />
+        {/* <Navbar /> */}
       </header>
       <main style={{ flex: 1 }}>
         <HeroImage />
         <Fade bottom big>
-          <div>
-            <h1 className="p-5 text-center d-flex justify-content-center align-items-center">Projects I've worked on</h1>
-          </div>
         </Fade>
-
         <Projects />
+        <ContactForm/>
       </main>
       <footer>
         <Footer />
